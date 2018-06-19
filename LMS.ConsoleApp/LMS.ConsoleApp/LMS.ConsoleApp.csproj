@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Decorator.Interface">
+      <HintPath>..\..\..\..\..\..\..\LMS-master\LMS-master\lib\Decorator.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="LeadEntity.Interface">
+      <HintPath>..\..\..\..\..\..\..\LMS-master\LMS-master\lib\LeadEntity.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="LeadEntity.JSON">
+      <HintPath>..\..\..\..\..\..\..\LMS-master\LMS-master\lib\LeadEntity.JSON.dll</HintPath>
+    </Reference>
+    <Reference Include="Publisher.Interface">
+      <HintPath>..\..\..\..\..\..\..\LMS-master\LMS-master\lib\Publisher.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Validator.Interface">
+      <HintPath>..\..\..\..\..\..\..\LMS-master\LMS-master\lib\Validator.Interface.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

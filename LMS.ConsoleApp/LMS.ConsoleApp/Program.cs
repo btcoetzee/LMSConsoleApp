@@ -24,6 +24,43 @@
             //var something = new 
             Console.WriteLine("Enter the number lead you want to see: ");
             var lead = Console.ReadLine();
+                
+            if (lead == "1")
+            {
+                _leadEntities.ToString();
+                Console.WriteLine("Processing Lead 1");
+            }
+
+            else if (lead == "2")
+            {
+                _leadEntities.ToString();
+                Console.WriteLine("Processing Lead 2");
+            }
+
+            else if (lead == "3")
+            {
+                _leadEntities.ToString();
+                Console.WriteLine("Processing Lead 3");
+            }
+
+            else if (lead == "4")
+            {
+                _leadEntities.ToString();
+                Console.WriteLine("Processing Lead 4");
+            }
+
+            else if (lead == "5")
+            {
+                _leadEntities.ToString();
+                Console.WriteLine("Processing Lead 5");
+            }
+
+            else
+            {
+                Console.WriteLine("Bad Lead......... Goodbye");
+            }
+            Console.ReadKey();
+
         }
 
         public bool isValid()

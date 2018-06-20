@@ -7,8 +7,40 @@
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "LMS.ConsoleApp/1.0.0": {
+        "dependencies": {
+          "Decorator.Interface": "1.0.0.0",
+          "LeadEntity.Interface": "1.0.0.0",
+          "LeadEntity.JSON": "1.0.0.0",
+          "Publisher.Interface": "1.0.0.0",
+          "Validator.Interface": "1.0.0.0"
+        },
         "runtime": {
           "LMS.ConsoleApp.dll": {}
+        }
+      },
+      "Decorator.Interface/1.0.0.0": {
+        "runtime": {
+          "Decorator.Interface.dll": {}
+        }
+      },
+      "LeadEntity.Interface/1.0.0.0": {
+        "runtime": {
+          "LeadEntity.Interface.dll": {}
+        }
+      },
+      "LeadEntity.JSON/1.0.0.0": {
+        "runtime": {
+          "LeadEntity.JSON.dll": {}
+        }
+      },
+      "Publisher.Interface/1.0.0.0": {
+        "runtime": {
+          "Publisher.Interface.dll": {}
+        }
+      },
+      "Validator.Interface/1.0.0.0": {
+        "runtime": {
+          "Validator.Interface.dll": {}
         }
       }
     }
@@ -16,6 +48,31 @@
   "libraries": {
     "LMS.ConsoleApp/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Decorator.Interface/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LeadEntity.Interface/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LeadEntity.JSON/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Publisher.Interface/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Validator.Interface/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
